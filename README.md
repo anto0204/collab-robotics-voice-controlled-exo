@@ -42,36 +42,25 @@ The speech interface recognizes a predefined vocabulary corresponding to the ava
 
 The Vosk acoustic model is not included in this repository and must be downloaded separately.
 
-## Experimental Validation
-
-The system was experimentally evaluated considering:
-
-* voice-command recognition
-* elbow target-reaching accuracy
-* minimum-jerk trajectory tracking
-* inter-subject repeatability
-* tracking-error distributions
-* RMSE
-* hysteresis
-* stuck-condition safety behaviour
+## Experimental Results
 
 ### Trajectory Tracking
 
-![Minimum-jerk trajectory tracking](docs/figures/trajectory_tracking.png)
+![Minimum-jerk trajectory tracking](docs/figures/mean_trajectories.png)
 
 The measured elbow trajectories were compared with the analytical minimum-jerk reference to evaluate the behaviour of the physical system.
 
 ### Tracking Error
 
-![Tracking error](docs/figures/tracking_error.png)
+![Tracking error](docs/figures/mean_errors.png)
 
 Tracking performance was evaluated across multiple trials and subjects, including the analysis of variability and confidence intervals.
 
-### Hysteresis
+### RMSE Analysis
 
-![Hysteresis analysis](docs/figures/hysteresis.png)
+![RMSE vs minimum-jerk reference](docs/figures/mj_rmse_boxplot.png)
 
-The hysteresis analysis highlights the influence of the physical exoskeleton hardware on the difference between the analytical trajectory and the experimentally measured motion.
+The RMSE was evaluated for each trajectory to provide a compact quantitative measure of tracking performance.
 
 For the complete experimental methodology, results and discussion, see the [project report](docs/project_report.pdf).
 
