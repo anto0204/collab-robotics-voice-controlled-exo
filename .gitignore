@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Vosk
+models/
+vosk_models/
+
+# MATLAB datasets
+*.mat
+
+# Large media
+*.mp4
+*.avi
+*.mov
+
+# Office
+*.pptx
+*.docx
+
+# Credentials
+arduino_secrets.h
+.env
+
+# OS
+desktop.ini
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Temporary
+*.tmp
+*.bak
