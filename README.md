@@ -20,7 +20,7 @@ Voice commands are associated with predefined elbow target positions. Once a val
 
 ## System Architecture
 
-![System architecture](docs/system_architecture.svg)
+![System architecture](docs/system_architecture.png)
 
 The high-level speech interface runs in Python and converts recognized vocal commands into target positions. Commands are transmitted via Wi-Fi to the Arduino-based low-level controller, which handles trajectory generation, position control and safety monitoring.
 
